@@ -10,5 +10,6 @@ namespace FullStackAPI.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Kabi_Timesheet> Kabi_Timesheets { get; set; }
     }
 }

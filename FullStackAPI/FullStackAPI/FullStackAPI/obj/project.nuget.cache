@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gj0YmuVUyXgm4YuhkNeajTofe2B/Wd4XfKPPJSDjU72Ay0AsTxhm90D+7arwgdfg+RbO1rCJHR8zUzF6ujhkSg==",
+  "dgSpecHash": "y/TwHNy8QLuiniqVEnmsq5I0mUbS8vXGzFcfKNEGEHsLEyJ7kTAVhPzZCGu734mgS0uyXvwxHbTpZK9268uqiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sinme\\project\\FullStackUI\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
+  "projectFilePath": "C:\\Users\\sinme\\project\\PRT585_2023_Group7_GroupProject\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sinme\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\sinme\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
