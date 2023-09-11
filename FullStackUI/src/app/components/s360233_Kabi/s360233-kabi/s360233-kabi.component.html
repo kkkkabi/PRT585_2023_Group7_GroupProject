@@ -1,0 +1,30 @@
+<div class="continer my-3"> <!--my means add margin 5 in both top and bottom-->
+    <!--Add header, mb = margin bottom is 3-->
+    <h1 class=mb-3>Kabi_timesheets</h1>
+
+    <!--show this table if -->
+    <table class="table" *ngIf= "Kabi_timesheets && Kabi_timesheets.length>0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Week</th>
+                <th>Name</th>
+                <th>StudentNo</th>
+                <th>Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--get the data by looping the employee list array-->
+            <!--Let x of y, loop in the y, y has to be in component.ts file-->
+            <tr *ngFor = "let timesheet of Kabi_timesheets">
+                <td>{{ timesheet.id }}</td>
+                <td>{{ timesheet.week }}</td>
+                <td>{{ timesheet.name }}</td>
+                <td>{{ timesheet.studentNo }}</td>
+                <td>{{ timesheet.activity }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--add a pragraph if there is no list of employees or no data in the list-->
+<p *ngIf = "!Kabi_timesheets || Kabi_timesheets.length <=0" > No Data Found </p>
+</div>
