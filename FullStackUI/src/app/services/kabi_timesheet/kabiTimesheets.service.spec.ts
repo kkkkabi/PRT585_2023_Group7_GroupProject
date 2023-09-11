@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { KabiTimesheetsService } from './kabi-timesheets.service';
+import { KabiTimesheetsService } from './kabiTimesheets.service';
 
 describe('KabiTimesheetsService', () => {
   let service: KabiTimesheetsService;

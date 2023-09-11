@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { kabi_timesheet } from 'src/app/models/kabi_timesheet.model';
-import { KabiTimesheetsService } from 'src/app/services/kabi_timesheet/kabi-timesheets.service';
+import { KabiTimesheetsService } from 'src/app/services/kabi_timesheet/kabiTimesheets.service';
 
 @Component({
   selector: 'app-s360233-kabi',
@@ -9,19 +9,20 @@ import { KabiTimesheetsService } from 'src/app/services/kabi_timesheet/kabi-time
 })
 export class S360233KabiComponent implements OnInit {
 
-  kabi_timesheets: kabi_timesheet[]=[];
+  Kabi_timesheets: kabi_timesheet[]=[];
+  constructor(private kabiTimesheetsService: KabiTimesheetsService){}
 
-  constructor(private KabiTimesheetsService: KabiTimesheetsService){}
     ngOnInit(): void {
-      this.KabiTimesheetsService.getAllkabi_timesheets()
+      this.kabiTimesheetsService.getAllkabi_timesheets()
       .subscribe({
           next: (kabi_timesheets) => {
-            this.kabi_timesheets = kabi_timesheets;
+            this.Kabi_timesheets = kabi_timesheets;
+            console.log('Kabi_timesheets:',this.Kabi_timesheets);
+
             },
           error: (response) => {
             console.log(response);
           }
-     })
+     });
     }
     }
-

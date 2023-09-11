@@ -50,9 +50,11 @@ namespace FullStackAPI.Migrations
 
             modelBuilder.Entity("FullStackAPI.models.Kabi_Timesheet", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Activity")
                         .HasColumnType("nvarchar(max)");

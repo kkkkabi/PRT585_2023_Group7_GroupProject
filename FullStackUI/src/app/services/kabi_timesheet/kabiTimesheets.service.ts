@@ -14,6 +14,6 @@ export class KabiTimesheetsService {
   constructor(private http: HttpClient) { }
 
   getAllkabi_timesheets() : Observable<kabi_timesheet[]> {
-    return this.http.get<kabi_timesheet[]>(this.baseApiUrl + 'api/employees');
+    return this.http.get<kabi_timesheet[]>(this.baseApiUrl + 'api/Kabi_Timesheets');
   }
 }

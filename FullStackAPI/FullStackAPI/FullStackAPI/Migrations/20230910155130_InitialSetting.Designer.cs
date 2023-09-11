@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FullStackAPI.Migrations
 {
     [DbContext(typeof(FullstackDbcontext))]
-    [Migration("20230904144904_Initial Migration")]
-    partial class InitialMigration
+    [Migration("20230910155130_InitialSetting")]
+    partial class InitialSetting
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,6 +49,31 @@ namespace FullStackAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("FullStackAPI.models.Kabi_Timesheet", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Activity")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StudentNo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Week")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Kabi_Timesheets");
                 });
 #pragma warning restore 612, 618
         }
