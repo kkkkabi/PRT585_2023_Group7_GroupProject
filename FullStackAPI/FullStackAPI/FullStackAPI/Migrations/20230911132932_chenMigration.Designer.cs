@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FullStackAPI.Migrations
 {
     [DbContext(typeof(FullstackDbcontext))]
-    [Migration("20230910155130_InitialSetting")]
-    partial class InitialSetting
+    [Migration("20230911132932_chenMigration")]
+    partial class chenMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
