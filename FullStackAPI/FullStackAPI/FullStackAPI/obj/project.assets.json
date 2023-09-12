@@ -3887,24 +3887,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sinme\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\chenc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sinme\\project\\PRT585_2023_Group7_GroupProject\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
+      "projectUniqueName": "C:\\Users\\chenc\\Music\\PRT585_2023_Group7_GroupProject\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
       "projectName": "FullStackAPI",
-      "projectPath": "C:\\Users\\sinme\\project\\PRT585_2023_Group7_GroupProject\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
-      "packagesPath": "C:\\Users\\sinme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sinme\\project\\PRT585_2023_Group7_GroupProject\\FullStackAPI\\FullStackAPI\\FullStackAPI\\obj\\",
+      "projectPath": "C:\\Users\\chenc\\Music\\PRT585_2023_Group7_GroupProject\\FullStackAPI\\FullStackAPI\\FullStackAPI\\FullStackAPI.csproj",
+      "packagesPath": "C:\\Users\\chenc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chenc\\Music\\PRT585_2023_Group7_GroupProject\\FullStackAPI\\FullStackAPI\\FullStackAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sinme\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\chenc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3912,7 +3907,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

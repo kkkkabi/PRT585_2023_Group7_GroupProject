@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace FullStackAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialSetting : Migration
+    public partial class chenMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
